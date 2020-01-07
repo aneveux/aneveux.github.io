@@ -1,0 +1,36 @@
+baseurl:
+url: http://aneveux.github.io
+title: /antoine
+description: yet another technical blog
+header_pages:
+  - index.md
+  - about.md
+style: dark
+listen_for_clients_preferred_style: true
+footer: 'find me on <a href="https://twitter.com/antoineneveux">twitter</a>'
+permalink: pretty
+exclude:
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+whitelist:
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from

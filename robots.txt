@@ -1,0 +1,3 @@
+Sitemap: https://aneveux.github.io/sitemap.xml
+User-agent: *
+Allow: /
